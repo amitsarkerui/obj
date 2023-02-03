@@ -1,0 +1,176 @@
+:root{
+    --black70: #4B4B4B;
+    --black50: #7D7D7D;
+    --Linguagens: #CDF7F4;
+    --linguagensAltColor:#E6FBFA;
+    --Matemática: #F6DCF8;
+    --MatemáticaAltColor: #FAEDFB;
+    --CiênciasHumanaseSociais: #D3E5F5;
+    --CiênciasdaNatureza: #FFEED4;
+    --CiênciasdaNaturezaAltColor: #FFF6E9;
+    --libras: #F2F2F2;
+    --librasAltColor: #F9F9F9;
+
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1150px;
+    margin: 0 auto;
+}
+h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+header{
+    margin-top: 16px;
+}
+.headerWrapper{
+    background-color: #F9F9F9;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 16px;
+}
+.instituteInfo, .userInfo{
+    display: flex;
+    gap: 16px;
+}
+.instituteContent h1{
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--black70);
+    margin-bottom: 8px;
+}
+.userContent h1{
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--black70);
+    margin-bottom: 8px;
+}
+.deg{
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--black50);
+    margin-bottom: 8px;
+}
+.details{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--black50);
+}
+.table{
+    margin-top: 30px;
+}
+.text-center{
+    text-align: center;
+}
+
+.table-icon i{
+    color: #36AF2B;
+}
+
+table {
+    width: 100%;
+}
+
+table tbody tr td{
+    background-color: #E6FBFA;
+   padding: 6px ;
+}
+
+
+.tableWrapper table th div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tableWrapper table th div span {
+    width: 50%;
+    text-align: center;
+}
+
+th , td {
+    padding: 8px;
+    font-weight: 700;
+}
+
+span.table-sln {
+    background: #A5F0EB;
+    color: #3FA2A2;
+    font-weight: 700;
+    padding: 6px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 12px;
+}
+.rowHead{
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--black70);
+    background-color: var(--Linguagens)
+}
+.linguagens{
+    background-color: var(--Linguagens);
+}
+.linguagensAltColor{
+ background-color: var(--linguagensAltColor);
+}
+.Matemática{
+    background-color: var(--Matemática);
+}
+.MatemáticaAltColor{
+    background-color: var(--MatemáticaAltColor);
+}
+.CiênciasdaNatureza{
+    background-color: var(--CiênciasdaNatureza);
+}
+.CiênciasdaNaturezaAltColor{
+    background-color: var(--CiênciasdaNaturezaAltColor);
+}
+.libras{
+    background-color: var(--libras);
+}
+.librasAltColor{
+    background-color: var(--librasAltColor);
+}
+table tbody tr td:first-child {
+    border-radius: 5px 0 0 5px;
+  
+}
+.bimHeading{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--black50);
+    margin-bottom: 10px;
+}
+.bgGrey{
+    background-color: #F9F9F9;
+}
+.bimSubHeading{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--black50);
+}
+.tableData{
+    text-align: center;
+    color: var(--black70);
+}
+.table-right{
+    margin-left: 65px;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--black50);
+}
+table{
+    border-spacing: 0px 4px;
+}
